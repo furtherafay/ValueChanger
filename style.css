@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    background-color: rgb(117, 112, 112);
+    border: 2px solid;
+    border-radius: 25px;
+    height: 350px;
+    width: 250px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+h1{
+    color: rgb(48, 50, 50);
+}
+
+.container .number{
+    font-size: 8em;
+    color: rgb(48, 50, 50);
+}
+
+button{
+    font-size: 2em;
+    background-color: rgb(120, 113, 113);
+    border-radius: 25px;
+}
+
+button:hover{
+    background-color: rgb(92, 86, 86);
+}
